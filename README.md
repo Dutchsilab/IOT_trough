@@ -1,7 +1,7 @@
 ## Overview 101
 
 An Arduino project to detect pet food inside a bowl. If the bowl is empty the Arduino will send a message
-to the device to tell its empty or needs a refill.
+to the device to tell its empty or needs a refill. The Ultrasonic Sensor HC-SR04 will do all the heavy work!
 
 ### Prerequisites
 
@@ -10,6 +10,7 @@ To get started, you need an Arduino board and the Arduino program to get started
 ```
 - Windows 8 or 10, MacOS & Linux.
 - A working Arduino board.
+- You need the component 'Ultrasonic Sensor HC-SR04' [Check it here](https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/)
 - The 'Arduino Program' to start coding and uploading it to the board.
 - Basic understanding of Arduino coding.
 - A steady WiFi connection.
