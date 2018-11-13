@@ -1,24 +1,26 @@
 ## Overview 101
 
-An Arduino project to detect pet food inside a bowl.
+An Arduino project to detect pet food inside a bowl. If the bowl is empty the Arduino will send a message
+to the device to tell its empty or needs a refill.
 
 ### Prerequisites
 
-You need an Arduino board and the Arduino program to get started.
+To get started, you need an Arduino board and the Arduino program to get started.
 
 ```
 - Windows 8 or 10, MacOS & Linux.
-- Working Arduino board.
-- 'Arduino Program' to start coding.
+- A working Arduino board.
+- The 'Arduino Program' to start coding and uploading it to the board.
 - Basic understanding of Arduino coding.
-- A steady WiFi connection :)
+- A steady WiFi connection.
+- Patients :)
 ```
 
 ### Installing
 
-1. Connect all the components needed to your Arduino Board ([Click Here](https://www.makerspaces.com/arduino-uno-tutorial-beginners/) to see how that works!) 
+1. Connect all the components needed to your Arduino Board ([click Here](https://www.makerspaces.com/arduino-uno-tutorial-beginners/) to see how that works!) 
 2. Connect your Arduino Board using USB with your computer.
-3. Fire up the program 'Arduino'. If you don't have it, [Install](https://www.arduino.cc/en/Main/Software) it first.
+3. Fire up the program 'Arduino'. If you don't have it, [install](https://www.arduino.cc/en/Main/Software) it first.
 4. Start a new 'file' and copy/paste my code from this ReadMe page.
 5. Validate the code first to check if everything works correctly.
 6. Before we upload the code to our Arduino, make sure the board is set to the right USB Port. You can do this by going to
