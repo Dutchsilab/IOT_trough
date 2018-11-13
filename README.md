@@ -47,7 +47,9 @@ long duration, distance, UltraSensor1, UltraSensor2;
 // Char setup
 char data;
 // Serial setup
-String SerialData=""; 
+String SerialData="";
+// Boolean setup (trigger)
+int trigger = 0;
 
 void setup()
 {
