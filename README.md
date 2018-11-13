@@ -5,7 +5,7 @@ to the device to tell its empty or needs a refill. The Ultrasonic Sensor will do
 
 ### Prerequisites
 
-To get started, you need an Arduino board, the Ultrasonic Sensor HC-SR04 [Check it here](https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/) and the Arduino program to get started.
+To get started, you need an Arduino board, the Ultrasonic Sensor HC-SR04 ([Check it here](https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/)) and the Arduino program to get started.
 
 ```
 - Windows 8 or 10, MacOS & Linux.
