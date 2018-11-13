@@ -19,15 +19,23 @@ To get started, you need an Arduino board, the Ultrasonic Sensor HC-SR04 ([Check
 
 ### Installing
 
-1. Connect the **Ultrasonic Sensor HC-SR04** needed to your **Arduino Board** ([Click here](https://www.makerspaces.com/arduino-uno-tutorial-beginners/) to see how that works!) 
-2. Connect your Arduino Board using USB with your computer.
+1. Connect the **Ultrasonic Sensor HC-SR04** to your **Arduino Board** ([Click here](https://www.makerspaces.com/arduino-uno-tutorial-beginners/) to see an example how that works.) 
+2. Connect your Arduino Board using the USB port of your computer.
 3. Fire up the program 'Arduino'. If you don't have it, [install](https://www.arduino.cc/en/Main/Software) it first.
 4. Start a new 'file' and copy/paste my code from this ReadMe page.
-5. Validate the code first to check if everything works correctly.
-6. Before we upload the code to our Arduino, make sure the board is set to the right USB Port. You can do this by going to
-Tools > Port > and select **'/dev/cu.MCU1~NODE'**. And set the **'Upload speed'** to **'921600'**.
-6. Now, we are ready to upload the code to our Arduino board. Hit the 'arrow to the right' to start uploading.
-7. If everything went according to plan, you should now have a working Arduino that detects the distance of the pet food put in the bowl.
+5. Save the file and it give it a name.
+6. Validate the code first to check if everything works correctly.
+7. Before we upload the code to our Node MCU Arduino, make sure the board is 'set' to the right USB Port. You can do this by going to: Tools > Port > and select **'/dev/cu.MCU1~NODE'**. And to speed things up, set the **'Upload speed'** to **'921600'**.
+8. Now, we are ready to upload the code to our Arduino board. Hit the 'arrow to the right' icon to start uploading the code.
+9. If everything went according to plan, you should now have a working Arduino that detects the distance of the pet food put in the bowl.
+
+### Troubleshooting
+
+**I am getting “espcomm_sync failed” error when trying to upload my ESP. How to resolve this issue?**
+```
+1. Make sure the (NODE MCU Arduino) is connected to the default USB port. You can do this by checking the port selection by going to Tools > Port.
+2. Reconnecting the USB cable will sometimes resolve the issue.
+```
 
 ### The Code
 ```
