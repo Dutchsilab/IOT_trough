@@ -13,7 +13,7 @@ To get started, you need an Arduino board and the Arduino program to get started
 - The 'Arduino Program' to start coding and uploading it to the board.
 - Basic understanding of Arduino coding.
 - A steady WiFi connection.
-- Patients :)
+- Patience :)
 ```
 
 ### Installing
